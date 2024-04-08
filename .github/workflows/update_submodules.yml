@@ -3,7 +3,7 @@ name: Update Submodules
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 9 * * *"
+    - cron: "17 9 * * *"
 
 jobs:
   update_submodules:
@@ -17,7 +17,7 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --remote --merge
+          git submodule update --remote --merge --force
 
       - name: Commit changes
         run: |
