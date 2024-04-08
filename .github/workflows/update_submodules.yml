@@ -1,8 +1,9 @@
 name: Update Submodules
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "30 7 * * *"
+    - cron: "41 7 * * *"
 
 jobs:
   update_submodules:
