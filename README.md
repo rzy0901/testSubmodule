@@ -1,4 +1,6 @@
-**Create submodule from: <https://github.com/rzy0901/sampleSubmodule>:**
+# testSubmodule
+
+Create submodule from: <https://github.com/rzy0901/sampleSubmodule>:
 
 ```bash
 git submodule add <repository_url> <path_to_directory>
