@@ -1,3 +1,3 @@
 [submodule "sampleSubmodule"]
 	path = sampleSubmodule
-	url = https://github.com/rzy0901/sampleSubmodule
+	url = https://github.com/rzy0901/sampleSubmodule.git
