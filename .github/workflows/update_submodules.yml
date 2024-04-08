@@ -9,6 +9,8 @@ jobs:
   update_submodules:
     runs-on: ubuntu-latest
     steps:
+      - name: List contents of current directory
+        run: ls -al
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
